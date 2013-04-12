@@ -1,0 +1,18 @@
+{
+  "name": "upperscore",
+  "version": "0.0.1",
+  "author": {
+    "name": "Bruno Windels",
+    "email": "bruno.windels@nokia.com"
+  },
+  "description": "underscore extension",
+  "main": "./lib/upperscore.js",
+  "dependencies": {
+    "underscore": "1.x"
+  },
+  "engines": {},
+  "readme": "upperscore\n==========\nAn extension of the popular underscore library. Upperscore contains all the underscore function, and the following functions:\n\n```\nvar upp = require('upperscore');\n```\n###upp.dict(keys, values)\ntakes two arrays and returns an object where the property names in keys set to the values in the values array.\n\n###upp.mapObject(object, mapFn(value, key), thisArg)\nruns a map operation over all the enumerable properties of an object\n\n###upp.filterObject(object, filterFn(value, key), thisArg)\nruns a filter operation over all the enumerable properties of an object\n\n###upp.filterDuplicates(array, compareFn(doc1, doc2))\njust like _.uniq, but with a compare function that you can supply yourself.",
+  "readmeFilename": "README.md",
+  "_id": "upperscore@0.0.1",
+  "_from": "upperscore@0.x"
+}
