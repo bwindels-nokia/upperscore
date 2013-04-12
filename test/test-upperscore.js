@@ -1,7 +1,7 @@
 /*jshint evil: false, bitwise:false, strict: false, undef: true, white: false, plusplus:false, node:true, onevar: false */
 
 
-var upp = require('node_modules/upperscore/lib/upperscore');
+var upp = require('../lib/upperscore');
 var testCase = require('nodeunit').testCase;
 
 module.exports = testCase({
